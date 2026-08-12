@@ -1,3 +1,6 @@
+### Projects for 3E HItech Solutions
+
+
 ### DingTalk WLAN Attendance & Client Visit OpenClaw Automation
 Dingtalk restriction for one WLAN Attendance & OpenClaw signin/signout report automation for client visit of employees(Sales).
 ## Objectives :
@@ -16,3 +19,17 @@ SME project using openclaw ai automation for existing all in one Dingtalk system
 - DingTalk - https://www.dingtalk.io/download/
 - OpenClaw - https://openclaw.ai/#quickstart
 - AI API Gateway/Model/auth provider (OpenAI, Anthropic, xAI, Google, OpenRouter, etc...)
+
+
+
+### Windows Server 2022 - Hyper-V
+Create group policy in windows server to manage IT Assets & Rules
+## Objective:
+
+- ***Setup Hyper-V***
+- ***Install Windows Server 2022***
+- ***Setup Server Manager***
+
+## Prerequisites
+- **Hyper-V** - Must enable in Windows 11 Pro
+- **Windows Server 2022 Standard Edition - https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022
