@@ -21,8 +21,6 @@ SME project using openclaw ai automation for existing all in one Dingtalk system
 - AI API Gateway/Model/auth provider (OpenAI, Anthropic, xAI, Google, OpenRouter, etc...)
 
 
-<<<<<<< HEAD
-
 ### Windows Server 2022 - Hyper-V
 Create group policy in windows server to manage IT Assets & Rules
 ## Objective:
@@ -34,6 +32,5 @@ Create group policy in windows server to manage IT Assets & Rules
 ## Prerequisites
 - **Hyper-V** - Must enable in Windows 11 Pro
 - **Windows Server 2022 Standard Edition - https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022
-=======
+
 ## geloxh
->>>>>>> 25bfb3c99b1f5fbee9b024a2cd128f9a79b83e63
