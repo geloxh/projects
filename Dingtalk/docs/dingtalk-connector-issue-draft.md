@@ -18,7 +18,7 @@ The channel shows `connected` (Stream WebSocket succeeds), but the probe (which 
 ## What I've already verified
 1. **Credentials are valid** — confirmed via direct curl against DingTalk's own OAuth endpoint:
    ```
-   curl -X POST 'https://api.dingtalk.com/v1.0/oauth2/accessToken' -H 'Content-Type: application/json' -d '{"appKey": "dingy2gawqz3aubzuiuq", "appSecret": "<redacted>"}'
+   curl -X POST 'https://api.dingtalk.com/v1.0/oauth2/accessToken' -H 'Content-Type: application/json' -d '{"appKey": "****************", "appSecret": "<redacted>"}'
    ```
    Response: `{"expireIn":7200,"accessToken":"..."}` — success.
 
@@ -43,7 +43,7 @@ The channel shows `connected` (Stream WebSocket succeeds), but the probe (which 
 ## One anomaly noticed
 Gateway startup log shows:
 ```
-starting dingtalk-connector[__default__] (mode: stream, DINGTALK_AGENT=DING_DWS_CLAW, DWS_CLIENT_ID=dingy2ga...)
+starting dingtalk-connector[__default__] (mode: stream, DINGTALK_AGENT=DING_DWS_CLAW, DWS_CLIENT_ID=dingyxxx...)
 ```
 Not sure if `DINGTALK_AGENT=DING_DWS_CLAW` indicates the connector is internally routing through DEAP Agent / DWS logic rather than plain bot mode (方案一), even though my config only specifies plain bot fields. Could this be relevant to the 403?
 
